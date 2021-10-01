@@ -1,0 +1,45 @@
+2021-10-01 09:18:18.606  INFO 1 --- [main] d.springdocker.SpringDockerApplication   : Starting SpringDockerApplication v0.0.1-SNAPSHOT using Java 1.8.0_212 on 7231fa20cc74 with PID 1 (/home/dnt/app.jar started by dnt in /home/dnt)
+2021-10-01 09:18:18.608  INFO 1 --- [main] d.springdocker.SpringDockerApplication   : No active profile set, falling back to default profiles: default
+2021-10-01 09:18:19.495  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-01 09:18:19.555  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2021-10-01 09:18:20.255  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-01 09:18:20.273  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-01 09:18:20.274  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-01 09:18:20.348  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-01 09:18:20.348  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1680 ms
+2021-10-01 09:18:20.584  INFO 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-01 09:18:20.649  INFO 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-01 09:18:20.857  INFO 1 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-01 09:18:20.968  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-01 09:18:21.155  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-01 09:18:21.177  INFO 1 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-10-01 09:18:21.771  INFO 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-01 09:18:21.780  INFO 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 09:18:22.559  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 09:18:22.571  INFO 1 --- [main] d.springdocker.SpringDockerApplication   : Started SpringDockerApplication in 4.644 seconds (JVM running for 5.208)
+2021-10-01 09:19:31.157  INFO 1 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 09:19:31.160  INFO 1 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-01 09:19:31.166  INFO 1 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-01 09:19:42.489  INFO 1 --- [main] d.springdocker.SpringDockerApplication   : Starting SpringDockerApplication v0.0.1-SNAPSHOT using Java 1.8.0_212 on 54e36a126d26 with PID 1 (/home/dnt/app.jar started by dnt in /home/dnt)
+2021-10-01 09:19:42.492  INFO 1 --- [main] d.springdocker.SpringDockerApplication   : No active profile set, falling back to default profiles: default
+2021-10-01 09:19:43.424  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-01 09:19:43.487  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2021-10-01 09:19:44.350  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-01 09:19:44.371  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-01 09:19:44.371  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-01 09:19:44.465  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-01 09:19:44.465  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1897 ms
+2021-10-01 09:19:44.840  INFO 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-01 09:19:44.931  INFO 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-01 09:19:45.170  INFO 1 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-01 09:19:45.290  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-01 09:19:45.401  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-01 09:19:45.425  INFO 1 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-10-01 09:19:46.159  INFO 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-01 09:19:46.168  INFO 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 09:19:47.035  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 09:19:47.048  INFO 1 --- [main] d.springdocker.SpringDockerApplication   : Started SpringDockerApplication in 5.205 seconds (JVM running for 5.82)
+2021-10-01 09:20:04.854  INFO 1 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 09:20:04.854  INFO 1 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-01 09:20:04.855  INFO 1 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-01 09:20:04.895  INFO 1 --- [http-nio-8080-exec-1] dnt.springdocker.web.StudentController   : Get all students API is called!
